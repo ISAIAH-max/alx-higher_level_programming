@@ -7,12 +7,11 @@
    You must use console.log(...) to print all output
    You are not allowed to use var
  */
-
-let j = process.argv.length;
+const j = process.argv.length;
 if (j === 2) {
-    console.log('No argument')
-}else if (j === 3) {
-    console.log('Argument found');
-}else {
-    console.log('Arguments found');
+  console.log('No argument');
+} else if (j === 3) {
+  console.log('Argument found');
+} else {
+  console.log('Arguments found');
 }
