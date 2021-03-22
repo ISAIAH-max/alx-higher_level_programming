@@ -1,7 +1,4 @@
 #!/usr/bin/node
-/*
-script that prints a square
-*/
 'use strict';
 let x = process.argv[2];
 if (isNaN(x)) {
