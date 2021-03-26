@@ -33,7 +33,7 @@ class Square():
                 print("size must be >= 0", end=" ")
                 raise ValueError
             else:
-               self.__size = value
+                self.__size = value
         else: 
             print("size must be an integer", end=" ")
             raise TypeError
