@@ -34,6 +34,6 @@ class Square():
                 raise ValueError
             else:
                 self.__size = value
-        else: 
+        else:
             print("size must be an integer", end=" ")
             raise TypeError
