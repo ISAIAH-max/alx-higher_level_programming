@@ -30,10 +30,8 @@ class Square():
     def size(self, value):
         if isinstance(value, int):
             if (value < 0):
-                print("size must be >= 0", end="")
-                raise ValueError
+                raise ValueError("size must be >= 0", end="")
             else:
                 self.__size = value
         else:
-            print("size must be an integer", end="")
-            raise TypeError
+            raise TypeError("size must be an integer", end="")
