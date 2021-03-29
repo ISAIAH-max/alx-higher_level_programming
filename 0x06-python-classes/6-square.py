@@ -61,5 +61,5 @@ class Square():
                and type(value[1]) is int and value[0] >= 0 and value[1] >= 0:
             self.__position = value
         else:
-            print("position must be a tuple of 2 positive integers", end="")
+            print("position must be a tuple of 2 positive integers", end=" ")
             raise TypeError
