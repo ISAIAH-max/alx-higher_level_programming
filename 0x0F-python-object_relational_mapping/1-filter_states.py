@@ -3,6 +3,7 @@
 A script that lists all states with a name starting with N (upper N)
 from a database
 """
+
 import MySQLdb
 from sys import argv
 
