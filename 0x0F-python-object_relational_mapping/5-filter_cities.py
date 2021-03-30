@@ -19,7 +19,7 @@ if __name__ == "__main__":
     result = []
     x = 0
     for row in rows:
-        result.append(rows[x][0])
+        result.append(row[2])
         x += 1
     s = ', '
     print(s.join(result))
