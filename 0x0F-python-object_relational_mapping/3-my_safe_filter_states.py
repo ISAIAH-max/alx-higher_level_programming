@@ -14,8 +14,8 @@ if __name__ == "__main__":
                            passwd=argv[2], db=argv[3], charset="utf8")
     cur = conn.cursor()
     sql = ("SELECT * FROM states WHERE name = '{:s}'ORDER BY id ASC")
-    query_rows = cur.execute(sql, (argv[4]), )
-    for row in query_rows:
+    query_rows = cur.execute(sql, (argv[4]))
+    for row in range(query_rows):
         print(cur.fetchone())
     cur.close()
     conn.close()
