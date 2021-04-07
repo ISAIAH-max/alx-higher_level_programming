@@ -14,4 +14,4 @@
 * Scope of variables
 * What are the arithmetic operators and how to use them
 * How to manipulate dictionary
-* How to import a file
+* How to import a file.
