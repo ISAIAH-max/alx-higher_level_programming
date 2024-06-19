@@ -1,13 +1,7 @@
 #!/usr/bin/node
+const data = require('./100-data').list;
 
-// Import the list from the file
-const { list } = require('./100-data');
+const newList = data.map((value, index) => value * index);
 
-// Print the original list
-console.log(list);
-
-// Create a new list with each value multiplied by its index
-const newList = list.map((value, index) => value * index);
-
-//Print the new list
+console.log(data);
 console.log(newList);
